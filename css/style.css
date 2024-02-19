@@ -8,10 +8,12 @@ body {
 nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin: 0px 200px ;
 }
        
 .nav-title{
-    color: 181818;
+    color: #181818;
     font-size: 45px;
     font-weight: 800;
 }
@@ -43,3 +45,20 @@ nav a {
     font-weight: 700px;
     padding: 15px 35px ;
 }
+
+/* header releted style */
+
+.header{
+    background-color: #fff8f3;
+    background-image: url(../img/header_bg.png);
+    background-repeat: no-repeat;
+}
+
+.banner {
+    padding: 30px 30px 30px 50px;
+    display: flex;
+}
+.banner-padding{
+    padding-left : 155px;
+}
+
